@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Basic HTML</title>
+</head>
+
+<body id="top">
+  <h1>About Janine</h1>
+  <h2>Basic text-related tags</h2><!-- h2 is a subheading of h1 -->
+  <h3>My courses</h3> 
+  table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+caption {
+    font-size: 1.5em;
+    margin: 10px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+</style>
+</head>
+<body>
+<table>
+<caption>Course Information for Fall 2024</caption>
+<thead>
+    <tr>
+        <th>Course Code</th>
+        <th>Instructor(s)</th>
+        <th>Brief Description</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>HTTP-Web Development 5125</td>
+        <td>Christine Bittle</td>
+        <td>
+            <ul>
+                <li>HTTP</li>
+                <li>Web Development</li>
+                <li>Back-End Technologies</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>HTTP-Web Development 5126</td>
+        <td>Matthew Bebis</td>
+        <td>
+            <ul>
+                <li>Database Design</li>
+                <li>Database Development</li>
+                <li>SQL</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>HTTP-Web Development 5122</td>
+        <td>Sean Doyle</td>
+        <td>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>IXD-Interaction Design 5106</td>
+        <td>Momna Sheikh</td>
+        <td>
+            <ul>
+                <li>Interaction Design</li>
+                <li>User Experience</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>HTTP-Web Development 5110</td>
+        <td>Bernard Monette</td>
+        <td>
+            <ul>
+                <li>Introduction to Web Development</li>
+                <li>Basic HTML/CSS</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>IXD-Interaction Design 5206</td>
+        <td>David Neumann</td>
+        <td>
+            <ul>
+                <li>Product Management</li>
+                <li>Product Life Cycle</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>HTTP-Web Development 5113</td>
+        <td>Bernard Monette, Mohammed Shabbar Manek</td>
+        <td>
+            <ul>
+                <li>Special Topics in Web Development</li>
+                <li>Advanced Web Technologies</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>HTTP-Web Development 5121</td>
+        <td>Joanna Kommala</td>
+        <td>
+            <ul>
+                <li>Web Design</li>
+                <li>UI/UX Principles</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>HTTP-Web Development 5114</td>
+        <td>Adam Thomas</td>
+        <td>
+            <ul>
+                <li>Workshops in Web Development</li>
+                <li>Practical Web Development</li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
+</table>
+<footer>
+&copy; 2024 Janine. All rights reserved.
+</footer>
+</body>
+</html>
+  <p>This is a paragraph.</p>
+  <!-- em = emphasis (default styling: italics) -->
+  <!-- strong = strongly emphasize (default styling: bolded)-->
+  <p>This is another paragraph. This is <em>italicized</em>. This is  <strong>bolded</strong>. This is <strong><em>both bolded and italicized</em></strong>.</p>
+  <h3>Links</h3>
+  <p>You can use the anchor tag (a) to create a link. Links MUST have an href attribute. An <a href="https://www.google.ca">external link to Google</a>.</p>
+  <!-- The link to the lists page uses a relative URL. (. means current directory) -->
+  <p>Go to the <a href="./lists.html">HTML lists page</a>.</p>
+  <!-- To jump to an id, the href must be #<id-name> -->
+  <p>An internal link to the <a href="#top">top of this page</a>.</p>
+  <p>If you need a <a href="#">dummy link</a>, you can just use # as your href.</p>
+  <h2>Images</h2>
+  <!-- Image source: https://blog.animalogic.ca/wp-content/uploads/2018/12/shutterstock_307170929.jpg -->
+  <!-- img is a self-closing tag -->
+  <img src="./img/arctic-fox.jpg" alt="Close up of arctic fox yawning and leaning on a pile of branches" width="150"><!-- src and alt are required -->
+  <!-- In HTML, the width and height attributes are ALWAYS taken in px so DO NOT USE THE "px" unit in the value. -->
+  <p>&copy; Copyright HTTP5121, 2024.</p>
+  <p>&lt; &gt; &amp; &aacute;</p>
+</body>
+
+</html>
